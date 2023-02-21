@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.binarytree.BinaryTreeController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Canvas height="350.0" width="600.0" fx:id="binaryTreeCanvas"/>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Term:" />
+                  <TextField fx:id="termInputTextField" />
+                  <Button mnemonicParsing="false" text="Bestätigen" />
+               </children>
+            </HBox>
+         </children></VBox>
+   </children>
+</AnchorPane>
